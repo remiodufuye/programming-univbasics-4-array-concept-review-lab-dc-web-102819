@@ -23,7 +23,4 @@ def find_min_value(array)
  
 end 
 
-sharks = ["Hammerhead", "Great White", "Tiger", "Whale"]
-sharks.include? "Tiger"      # true
 
-["a", "b", "c"].include? 2   # false
