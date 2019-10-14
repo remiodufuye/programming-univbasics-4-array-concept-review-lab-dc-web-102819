@@ -23,3 +23,10 @@ def find_min_value(array)
  
 end 
 
+
+array = ["A", "B", "C"]
+array.each_with_index 
+{
+  |val, index| puts "#{val} => #{index}" 
+  
+}
