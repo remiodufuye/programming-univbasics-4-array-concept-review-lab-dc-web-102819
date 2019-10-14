@@ -4,12 +4,9 @@
 def find_element_index(array, value_to_find)
    
     counter = 0 
-    while counter < array.length do 
-    break if array[counter] == value_to_find
-    index_value = array.index(value_to_find) 
-    puts index_value
-    counter += 1
-    end
+   
+   if array.include? value_to_find
+     p 
     
 end 
 
@@ -23,4 +20,7 @@ def find_min_value(array)
  
 end 
 
+sharks = ["Hammerhead", "Great White", "Tiger", "Whale"]
+sharks.include? "Tiger"      # true
 
+["a", "b", "c"].include? 2   # false
